@@ -1,9 +1,4 @@
 /* 
- * Authors: Casen Hunger
- *			Mohit Tiwari
- *			Alex Dimakis
- *			Ankit Rawat
- * 
  * Description: This is the receiving program for covert communication across the L1
  *				cache. The pair to this script is ./senderL1. The covert-channel is 
  *				constructed by the two programs placing contention for space in the L1
