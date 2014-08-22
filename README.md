@@ -1,6 +1,8 @@
 covert-channels
 ===============
 
+Please see the Wiki page for a detailed description of the channels.
+
 Covert channels are channels in which the transfer of communication is possible, although the channels do not exist explicitly for this purpose. In a computer, these channels exist due to contention over a shared resource between two processes. These channels even extend to complex processes, such as virtual machines. To construct a channel, the two VM's (receiver and sender) must first agree on the period length for communication and the time within the period that each VM will contend for the resource. Second, the VM's synchronize their clocks to achieve high bandwidths. Once synchronized, the VM's are then able to carry out communication. Lastly, the traces are processed offline and the discrete waveform collected by the receiver is translated into a binary signal. Please view the Wiki page for more details on this process.
 
 This repository contains two scripts for communicating across a the L1 cache covert channel. Currently, the code works for the Ubuntu operating system. 
